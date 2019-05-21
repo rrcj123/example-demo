@@ -1,3 +1,18 @@
-.bg{
-    background: red;
+
+.shou{
+    text-align: center;
+    margin: 20px;
+}
+.shou a{
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    border: #4D4D4D 1px solid;
+    padding: 10px;
+    text-decoration: none;
+    color: #111111;
+}
+.shou a:hover{
+    color: #ffffff;
+    background: #4D4D4D;
 }
