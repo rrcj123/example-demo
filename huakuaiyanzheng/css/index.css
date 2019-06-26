@@ -1,0 +1,61 @@
+html,body {
+    padding:50px 0 0 0;
+    margin:0;
+    /*文本不能选中*/
+    user-select:none; 
+}
+.box{
+    position: relative;
+    width: 5rem;
+    height: 0.6rem;
+    background-color: #e8e8e8;
+    line-height: 0.6rem;
+    margin:0.2rem auto;
+}
+.bg{
+    position: absolute;
+    height: 100%;
+    background-color: #7ac23c;
+    z-index:1;
+}
+.text{
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    z-index:2;
+    font-size: 0.2rem
+}
+.btn{
+    position: absolute;
+    top:0;
+    width: 0.8rem;
+    height: 0.6rem;
+    z-index:3;
+    box-sizing: border-box;
+    background: #fff url(./../img/jiantou.png) center no-repeat;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.zhu{
+    font-size: 0.15rem;
+    color: #4D4D4D;
+    text-align: center;
+}
+.shou{
+    text-align: center;
+    margin: 20px;
+}
+.shou a{
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    border: #4D4D4D 1px solid;
+    padding: 10px;
+    text-decoration: none;
+    color: #111111;
+}
+.shou a:hover{
+    color: #ffffff;
+    background: #4D4D4D;
+}
